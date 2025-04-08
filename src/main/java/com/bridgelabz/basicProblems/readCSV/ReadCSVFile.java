@@ -5,7 +5,7 @@ import java.io.FileReader;
 
 public class ReadCSVFile {
     public static void main(String[] args) {
-        String path="/Users/sanyakhanna/Desktop/bridgelabz-workspace/java-csv-handling/src/main/java/com/bridgelabz/basicProblems/students.csv";
+        String path="/Users/sanyakhanna/Desktop/bridgelabz-workspace/java-csv-handling/src/main/java/com/bridgelabz/basicProblems/readCSV/students.csv";
         try(BufferedReader br=new BufferedReader(new FileReader(path))) {
             String line;
             br.readLine();   //to skip header
