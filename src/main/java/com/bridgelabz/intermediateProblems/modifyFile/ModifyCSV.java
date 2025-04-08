@@ -1,4 +1,4 @@
-package com.bridgelabz.basicProblems.modifyFile;
+package com.bridgelabz.intermediateProblems.modifyFile;
 
 import com.opencsv.CSVReader;
 import com.opencsv.CSVWriter;
@@ -9,7 +9,7 @@ import java.util.List;
 public class ModifyCSV {
     public static void main(String[] args) {
         try(CSVReader reader = new CSVReader(new FileReader("/Users/sanyakhanna/Desktop/bridgelabz-workspace/java-csv-handling/src/main/java/com/bridgelabz/basicProblems/writeCSV/employee.csv"));
-            CSVWriter writer = new CSVWriter(new FileWriter("/Users/sanyakhanna/Desktop/bridgelabz-workspace/java-csv-handling/src/main/java/com/bridgelabz/basicProblems/modifyFile/updated_employee.csv"))){
+            CSVWriter writer = new CSVWriter(new FileWriter("/Users/sanyakhanna/Desktop/bridgelabz-workspace/java-csv-handling/src/main/java/com/bridgelabz/intermediateProblems/modifyFile/updated_employee.csv"))){
             String[] header;
             header = reader.readNext();
             writer.writeNext(header);
