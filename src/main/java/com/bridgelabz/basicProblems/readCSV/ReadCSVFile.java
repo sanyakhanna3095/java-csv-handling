@@ -1,4 +1,4 @@
-package com.bridgelabz.basicProblems;
+package com.bridgelabz.basicProblems.readCSV;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
