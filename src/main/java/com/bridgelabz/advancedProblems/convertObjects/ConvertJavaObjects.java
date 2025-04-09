@@ -9,7 +9,6 @@ import java.util.List;
 
 public class ConvertJavaObjects {
 
-    // 👇 Inner class representing a Student bean
     public static class Student {
         @CsvBindByName(column = "ID")
         private int id;
@@ -42,7 +41,6 @@ public class ConvertJavaObjects {
         }
     }
 
-    // 👇 Main method to parse CSV and print students
     public static void main(String[] args) {
         try {
             FileReader reader = new FileReader("/Users/sanyakhanna/Desktop/bridgelabz-workspace/java-csv-handling/src/main/java/com/bridgelabz/advancedProblems/convertObjects/student.csv");
